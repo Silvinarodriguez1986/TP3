@@ -1,0 +1,132 @@
+
+*{
+  margin: 0px;
+  padding: 0px
+}
+body {
+  background-color: black;
+}
+#principal{
+  width:
+  height:  900px;
+  margin: 0px auto;
+  background-color: orange;
+}
+header{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 75px;
+  background: red;
+  font-size: 30px;
+}
+nav{
+  font-family: arial, hervetica;
+  height: 500px;
+  background: #ffc107;
+
+
+}
+.menu{
+  list-style: none;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.menu li a{
+  text-decoration: none;
+  color: white;
+  padding: 85px;
+  display: block;
+  font-size: 10mm;
+}
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+.menu li a:hover{
+  background: black;
+}
+
+#izq{
+  width: 40%;
+  height: 1000px;
+  background: orange;
+  float: left;
+}
+#der{
+  width: 40%;
+  height: 1000px;
+  background: orange;
+  float: left;
+}
+
+
+#otro{
+  width:20%;
+  height: 1000px;
+  background: chocolate;
+  float: left;
+}
+#otracaja{
+  width: 300px;
+  height: 850px;
+  background: white;
+  margin-left: 50px;
+  margin-top: 75px;
+
+
+}
+
+#caja{
+  width: 600px;
+  height: 850px;
+  background: white;
+  margin-left: 50px;
+  margin-top: 75px;
+}
+#cajita{
+  width: 600px;
+  height: 850px;
+  background: white;
+  margin-left: 50px;
+  margin-top: 75px;
+}
+
+footer{
+width:100%;
+  height: 100%;
+  background: #ffc107;
+  float: left;
+}
+
+.sociales{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.sociales li{
+  display: inline-block;
+}
+.sociales a{
+  padding: 100px;
+}
+h1 {
+text-align: center;
+}
+.icono {
+
+  position: fixed;
+  z-index: 999;
+  bottom: 20px;
+  right: 25px;
+  padding: 25px;
+
+}
+.icono:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.boton{
+  width: 150px;
+  transition: ease 1s;
+}
